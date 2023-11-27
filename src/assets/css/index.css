@@ -1,0 +1,189 @@
+section.expenseTracker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F6F7F7;
+    padding-bottom: 3rem;
+}
+
+section.expenseTracker .catchAllInfo {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section.expenseTracker .catchAllInfo .headExpense {
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+section.expenseTracker .catchAllInfo .finalAnswer p {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+section.expenseTracker .catchAllInfo .finalAnswer span {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+section.expenseTracker .catchAllInfo .incomeExpense {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #fff;
+    align-items: center;
+}
+
+section.expenseTracker .catchAllInfo .incomeExpense .incomeXp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 10px;
+}
+
+section.expenseTracker .catchAllInfo .incomeExpense .incomeXp p {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+section.expenseTracker .catchAllInfo .incomeExpense .incomeXp:nth-child(1) span {
+    color: #38CE77;
+    ;
+    ;
+
+}
+
+section.expenseTracker .catchAllInfo .incomeExpense .incomeXp span {
+    color: #CF6458;
+    ;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+section.expenseTracker .catchAllInfo .incomeExpense .line {
+    height: 30px;
+    width: 2px;
+    background: azure;
+}
+
+
+/*  History starts */
+
+section.expenseTracker .catchAllInfo .history {
+    width: 100%;
+}
+
+section.expenseTracker .catchAllInfo .history .title {
+    border-bottom: 1px solid black;
+}
+
+section.expenseTracker .catchAllInfo .title h4 {
+
+    padding-bottom: 4px;
+}
+
+section.expenseTracker .history .historyItems {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+section.expenseTracker .history .historyItems .historyItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+section.expenseTracker .history .historyItems .historyItem span{
+    position: absolute;
+    left: -21px;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 1px 4px;
+    cursor: pointer;
+    display: none;
+    
+}
+section.expenseTracker .history .historyItems .historyItem:hover span{
+    display: initial;
+   
+}
+
+section.expenseTracker .history .positiveAmount {
+    border-right: 4px solid #38CE77;
+}
+
+section.expenseTracker .history .negativeAmount {
+    border-right: 4px solid #CF6458;
+}
+
+section.expenseTracker.history .historyItems .historyItem h5 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*  History end */
+
+/*Form start  */
+section.expenseTracker .catchAllInfo .catchForm {
+    width: 100%;
+}
+
+section.expenseTracker .catchForm .title {
+    border-bottom: 1px solid black;
+}
+
+section.expenseTracker .catchForm .title h4 {
+
+    padding-bottom: 4px;
+}
+
+section.expenseTracker .catchForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+section.expenseTracker .catchForm form label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section.expenseTracker .catchForm form input {
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid beige;
+    outline-color: #38CE77;
+}
+
+section.expenseTracker .catchForm form button {
+    background-color: #9C87FF;
+    color: #fff;
+    padding: 9px 8px;
+    border: none;
+    outline: 1px solid #9C87FF;
+    border-radius: 4px;
+}
+section.expenseTracker .catchForm form button:focus{
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+     border: 1px solid #F6F7F7;
+}
+/*Form end  */
